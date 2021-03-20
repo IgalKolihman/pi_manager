@@ -1,0 +1,2 @@
+setuptools~=54.1.2
+docopt~=0.6.2
