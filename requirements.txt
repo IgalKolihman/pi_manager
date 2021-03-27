@@ -1,2 +1,4 @@
 setuptools~=54.1.2
 docopt~=0.6.2
+PyGithub~=1.54.1
+GitPython~=3.1.14

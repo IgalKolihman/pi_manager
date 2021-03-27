@@ -14,6 +14,7 @@ setup(
     keywords="",
     install_requires=[
     ],
+    scripts=["pi_manager/pi_manager.py"],
     packages=find_packages("pi_manager"),
     zip_safe=False,
     classifiers=[
