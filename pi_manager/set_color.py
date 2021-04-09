@@ -23,13 +23,7 @@ WM_BKG_SETTERS = {
 }
 
 
-# def set_wallpaper(color: str):
-#     if color not in ["yellow", "green", "blue", "red"]:
-#         print(f'Color type does not exist. Requires on of: "yellow", "green", "blue" or "red". Not "{color}"')
-#
-#     gsettings_path = exec_command(["which", "gsettings"])
-#     command = f"{gsettings_path} set org.gnome.desktop.background picture-uri /home/user/Pictures/wallpapers/X"
-
+# TODO: check that this way of setting the wallpaper works on the raspberry
 def get_image(image_url: str):
     request.urlretrieve(image_url, MANAGER_MEDIA_DIR)
 
